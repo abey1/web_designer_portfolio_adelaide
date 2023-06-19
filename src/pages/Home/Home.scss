@@ -1,0 +1,121 @@
+.home_main {
+  width: 100%;
+  height: 100vh;
+  // border: 1px red solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .home_left {
+    position: relative;
+    // border: 1px red solid;
+    margin-left: 10vw;
+    .left_background_img {
+      position: absolute;
+      left: -80px;
+      top: -30px;
+
+      z-index: -1000;
+    }
+    .home_left_name_intro {
+      font-family: "IBM Plex Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 102px;
+      line-height: 90px;
+      /* or 88% */
+
+      text-transform: uppercase;
+
+      color: #141313;
+      .name {
+        font-weight: 700;
+      }
+    }
+    .home_left_title {
+      margin-top: 40px;
+      font-family: "IBM Plex Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 32px;
+      /* identical to box height, or 100% */
+
+      letter-spacing: -0.03em;
+
+      color: #141313;
+      .home_left_title_italic {
+        font-style: italic;
+        font-weight: 700;
+      }
+    }
+    .lets_talk_btn {
+      margin-top: 50px;
+
+      width: 258px;
+      height: 56px;
+
+      background: #141313;
+      font-family: "IBM Plex Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      /* identical to box height, or 133% */
+
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 70px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .home_left_contact {
+      display: flex;
+      justify-content: space-between;
+      width: 456px;
+      // border: 1px red solid;
+      margin-top: 64px;
+
+      .home_left_phone {
+        display: flex;
+        align-items: center;
+        .home_left_phone_icon {
+          margin-right: 12px;
+        }
+        font-family: "IBM Plex Sans";
+        font-style: italic;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height, or 133% */
+
+        color: #141313;
+      }
+      .home_left_email {
+        display: flex;
+        align-items: center;
+        .home_left_email_icon {
+          margin-right: 12px;
+        }
+        font-family: "IBM Plex Sans";
+        font-style: italic;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height, or 133% */
+
+        color: #141313;
+      }
+    }
+  }
+  .home_right {
+    margin-right: 7vw;
+    .home_right_image_holder {
+      width: 30vw;
+      // background-size: cover;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+import {
+  ProjectAcademyPng,
+  ProjectAcademyXd,
+  ProjectAgencyPng,
+  ProjectAgencyXd,
+  ProjectAppPng,
+  ProjectAppXd,
+  ProjectArchitectPng,
+  ProjectArchitectXd,
+  ProjectArtPng,
+  ProjectArtXd,
+  ProjectBakeryPng,
+  ProjectBakeryXd,
+  ProjectBankPng,
+  ProjectBankXd,
+  ProjectBarPng,
+  ProjectBarXd,
+  ProjectBusinessPng,
+  ProjectBusinessXd,
+  ProjectCafePng,
+  ProjectCafeXd,
+  ProjectCharityPng,
+  ProjectCharityXd,
+  DeepPng,
+} from "../assets";
+
+const AllProjects = [
+  {
+    project_name: "Academy",
+    project_png: ProjectAcademyPng,
+    project_xd: ProjectAcademyXd,
+    project_webpage: "https://abeybruck.com/academy/",
+  },
+  {
+    project_name: "Agency",
+    project_png: ProjectAgencyPng,
+    project_xd: ProjectAgencyXd,
+    project_webpage: "https://abeybruck.com/agency/",
+  },
+  {
+    project_name: "App",
+    project_png: ProjectAppPng,
+    project_xd: ProjectAppXd,
+    project_webpage: "https://abeybruck.com/app/",
+  },
+  {
+    project_name: "Architect",
+    project_png: ProjectArchitectPng,
+    project_xd: ProjectArchitectXd,
+    project_webpage: "https://abeybruck.com/architect/",
+  },
+  {
+    project_name: "Art",
+    project_png: ProjectArtPng,
+    project_xd: ProjectArtXd,
+    project_webpage: "https://abeybruck.com/art/",
+  },
+  {
+    project_name: "Bakery",
+    project_png: ProjectBakeryPng,
+    project_xd: ProjectBakeryXd,
+    project_webpage: "https://abeybruck.com/bakery/",
+  },
+  {
+    project_name: "Bank",
+    project_png: ProjectBankPng,
+    project_xd: ProjectBankXd,
+    project_webpage: "https://abeybruck.com/bank/",
+  },
+  {
+    project_name: "Bar",
+    project_png: ProjectBarPng,
+    project_xd: ProjectBarXd,
+    project_webpage: "https://abeybruck.com/bar/",
+  },
+  {
+    project_name: "Business",
+    project_png: ProjectBusinessPng,
+    project_xd: ProjectBusinessXd,
+    project_webpage: "https://abeybruck.com/business/",
+  },
+  {
+    project_name: "Cafe",
+    project_png: ProjectCafePng,
+    project_xd: ProjectCafeXd,
+    project_webpage: "https://abeybruck.com/cafe/",
+  },
+  {
+    project_name: "Charity",
+    project_png: ProjectCharityPng,
+    project_xd: ProjectCharityXd,
+    project_webpage: "https://abeybruck.com/charity/",
+  },
+  {
+    project_name: "Deep",
+    project_png: DeepPng,
+    project_xd: null,
+    project_webpage: "https://dynamic-crepe-687dc0.netlify.app/",
+  },
+];
+
+export default AllProjects;

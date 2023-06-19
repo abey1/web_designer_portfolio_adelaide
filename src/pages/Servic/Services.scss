@@ -1,0 +1,94 @@
+.services_main {
+  padding: 100px;
+  .services_top {
+    margin-bottom: 50px;
+    .services {
+      font-family: "IBM Plex Sans";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      /* identical to box height, or 133% */
+      color: #141313;
+    }
+    .my_specialties {
+      font-family: "IBM Plex Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 56px;
+      /* identical to box height, or 117% */
+      text-transform: uppercase;
+      color: #141313;
+    }
+  }
+  .services_center {
+    .services_item {
+      display: flex;
+      justify-content: space-between;
+      width: 60vw;
+      border-bottom: 1px rgba(20, 19, 19, 0.2) solid;
+      margin: 50px 0;
+      .services_item_title {
+        display: flex;
+        // border: 1px red solid;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        /* identical to box height, or 150% */
+        text-transform: uppercase;
+        color: #141313;
+        .services_item_bulletin {
+          margin-right: 30px;
+          // border: 1px red solid;
+          margin-top: 0;
+        }
+      }
+
+      .services_item_right {
+        width: 35vw;
+        display: flex;
+        justify-content: space-between;
+        .services_item_right_left {
+          // border: 1px red solid;
+          .services_item_right_left_pic {
+            // border: 1px red solid;
+            object-fit: cover;
+            width: 20vw;
+            height: auto;
+            max-height: 180px;
+            transition: max-height 0.2s ease-out;
+          }
+          .pic_zero_height {
+            max-height: 0;
+          }
+          .services_item_right_left_content {
+            // border: 1px green solid;
+            text-align: justify;
+            margin-right: 5vw;
+            font-family: "IBM Plex Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            /* or 175% */
+            color: rgba(20, 19, 19, 0.8);
+          }
+        }
+        .services_item_right_right {
+          .services_item_right_right_pic {
+            transition: 0.2s transform ease-out;
+          }
+          .plus_rotate_90 {
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.app_main {
+  display: flex;
+  flex-direction: row;
+  .router_container {
+    margin-left: 14vw;
+    width: 100vw - 14vw;
+  }
+}

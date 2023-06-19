@@ -1,0 +1,91 @@
+.nav_main {
+  width: 14vw;
+  height: 100vh;
+  background: #141313;
+  border-right: 1px solid rgba(20, 19, 19, 0.1);
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  .nav_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh - 10vh;
+    margin: 56px 48px 48px 48px;
+    // border: 1px white solid;
+    .nav_logo {
+      font-family: "IBM Plex Serif";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 39px;
+      /* identical to box height */
+      text-align: left;
+      color: #ffffff;
+    }
+    .nav_links {
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 3vh;
+          .link_item {
+            text-decoration: none;
+            font-family: "IBM Plex Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height, or 150% */
+            text-align: left;
+            text-transform: uppercase;
+            color: #ffffff;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+          .nav_link_active {
+            .nav_link_inner {
+              color: black;
+              padding-left: 20px;
+            }
+            .nav_link_outer {
+              background: linear-gradient(
+                270.16deg,
+                #ffb147 5.74%,
+                #ff6c63 50.64%,
+                #b86adf 92.05%
+              );
+              text-decoration: line-through;
+            }
+          }
+        }
+      }
+    }
+    .nav_footer {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 40px;
+        margin-bottom: 20px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .nav_cpy {
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        /* or 138% */
+
+        color: #ffffff;
+      }
+    }
+  }
+}
