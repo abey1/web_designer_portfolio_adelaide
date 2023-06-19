@@ -60,6 +60,7 @@ import ProjectCharityPng from "./projects/charity/charity.png";
 import ProjectCharityXd from "./projects/charity/Charity_Responsive_Landing_Page.xd";
 import DownloadIcon from "./file-arrow-down-solid.svg";
 import DeepPng from "./projects/deep/deep.png";
+import MobileViewUnderConstruction from "./mobile_view_under_construction.png";
 
 export {
   NavBe,
@@ -123,4 +124,5 @@ export {
   ProjectCharityXd,
   DownloadIcon,
   DeepPng,
+  MobileViewUnderConstruction,
 };
