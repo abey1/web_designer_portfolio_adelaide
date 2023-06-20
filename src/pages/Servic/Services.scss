@@ -23,7 +23,7 @@
     }
   }
   .services_center {
-    border: 1px red solid;
+    // border: 1px red solid;
 
     .services_item {
       display: flex;
@@ -59,7 +59,7 @@
         width: 35vw;
         display: flex;
         justify-content: space-between;
-        border: 1px red solid;
+        // border: 1px red solid;
         .services_item_right_left {
           // border: 1px red solid;
           .services_item_right_left_pic {
@@ -93,7 +93,7 @@
           }
         }
         .services_item_right_right {
-          border: 1px red solid;
+          // border: 1px red solid;
           .services_item_right_right_pic {
             transition: 0.2s transform ease-out;
           }

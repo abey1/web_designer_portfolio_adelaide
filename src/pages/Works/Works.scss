@@ -28,7 +28,7 @@
   .works_center {
     .works_center_top {
       //   width: 60vw;
-      border: 1px green solid;
+      // border: 1px green solid;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
       .works_center_top_single_item {
@@ -149,6 +149,7 @@
     width: 80vw - 14vw;
     height: fit-content;
     // height: 905px;
+    // border: 1px red solid;
     background: linear-gradient(
       270.16deg,
       #ffb147 5.74%,
@@ -273,7 +274,8 @@
       }
     }
     @media screen and (max-width: 1490px) {
-      width: 80vw;
+      width: 90vw;
+      margin-left: -100px;
     }
   }
 }
