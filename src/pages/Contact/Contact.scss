@@ -1,189 +1,203 @@
-.contact_main {
-  //   border: 1px red solid;
-  width: 100vw-24vw;
-  height: 100vh;
+.contact_parent {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 8vw;
-  padding: 0 5vw;
-  .contact_left {
+  justify-content: center;
+  padding-top: 20vh;
+  .contact_main {
+    //   border: 1px red solid;
+    width: 100vw-24vw;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    .contact_title {
-      font-family: "IBM Plex Sans";
-      font-style: italic;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 24px;
-      /* identical to box height, or 133% */
-
-      color: #141313;
-    }
-    .reach_out {
-      font-family: "IBM Plex Sans";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 56px;
-      /* identical to box height, or 117% */
-
-      text-transform: uppercase;
-
-      color: #141313;
-    }
-    .contact_address {
-      margin-top: 5vh;
-      font-family: "IBM Plex Sans";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
-      /* or 150% */
-
-      letter-spacing: -0.03em;
-
-      color: #141313;
-    }
-    .contact_phone_no {
-      margin-top: 10vh;
-      font-family: "IBM Plex Sans";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 32px;
-      line-height: 40px;
-      /* identical to box height, or 125% */
-
-      color: #141313;
-    }
-    .contact_email {
-      font-family: "IBM Plex Sans";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 32px;
-      line-height: 40px;
-      /* identical to box height, or 125% */
-
-      color: #141313;
-    }
-    .contact_social_media {
+    justify-content: space-between;
+    align-items: center;
+    gap: 8vw;
+    padding: 0 5vw;
+    border: 1px red solid;
+    .contact_left {
       display: flex;
-      flex-direction: row;
-      gap: 1vw;
-      margin-top: 10vh;
-      font-family: "IBM Plex Sans";
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 24px;
-      /* identical to box height, or 150% */
-
-      letter-spacing: -0.03em;
-      text-transform: uppercase;
-
-      color: #141313;
-      .social_media {
-        cursor: pointer;
-      }
-    }
-  }
-  .contact_right {
-    width: 100%;
-    padding: 5vh 5vw;
-    background: linear-gradient(
-      270.16deg,
-      #ffb147 5.74%,
-      #ff6c63 50.64%,
-      #b86adf 92.05%
-    );
-    .contact_right_title {
-      font-family: "IBM Plex Sans";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 48px;
-      /* identical to box height, or 120% */
-
-      text-transform: uppercase;
-
-      color: #ffffff;
-      margin-bottom: 5vh;
-    }
-    form {
-      .contact_input {
+      flex-direction: column;
+      .contact_title {
         font-family: "IBM Plex Sans";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height, or 150% */
-
-        text-transform: uppercase;
-
-        color: #ffffff;
-
-        opacity: 0.8;
-        background: transparent;
-        border: none;
-        border-bottom: 1px white solid;
-        margin-right: 1vw;
-      }
-      .message_name_holder {
-        font-family: "IBM Plex Sans";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height, or 150% */
-
-        text-transform: uppercase;
-
-        color: #ffffff;
-
-        opacity: 0.8;
-        margin-top: 2vh;
-      }
-      .attach_file {
-        cursor: pointer;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        gap: 1vw;
-        margin-top: 3vh;
-        font-family: "IBM Plex Sans";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height, or 150% */
-
-        text-transform: uppercase;
-
-        color: #ffffff;
-
-        opacity: 0.8;
-      }
-      .contact_submit_btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1vw;
-        width: 211px;
-        height: 56px;
-        margin-top: 5vh;
-        background: #141313;
-        font-family: "IBM Plex Sans";
-        font-style: normal;
-        font-weight: 500;
+        font-style: italic;
+        font-weight: 600;
         font-size: 18px;
         line-height: 24px;
         /* identical to box height, or 133% */
 
-        color: #ffffff;
-        &:hover {
+        color: #141313;
+      }
+      .reach_out {
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        /* identical to box height, or 117% */
+
+        text-transform: uppercase;
+
+        color: #141313;
+      }
+      .contact_address {
+        margin-top: 5vh;
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        letter-spacing: -0.03em;
+
+        color: #141313;
+      }
+      .contact_phone_no {
+        margin-top: 10vh;
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        /* identical to box height, or 125% */
+
+        color: #141313;
+      }
+      .contact_email {
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        /* identical to box height, or 125% */
+
+        color: #141313;
+      }
+      .contact_social_media {
+        display: flex;
+        flex-direction: row;
+        gap: 1vw;
+        margin-top: 10vh;
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+
+        color: #141313;
+        .social_media {
           cursor: pointer;
         }
       }
+    }
+    .contact_right {
+      width: 100%;
+      padding: 5vh 5vw;
+      background: linear-gradient(
+        270.16deg,
+        #ffb147 5.74%,
+        #ff6c63 50.64%,
+        #b86adf 92.05%
+      );
+      .contact_right_title {
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height, or 120% */
+
+        text-transform: uppercase;
+
+        color: #ffffff;
+        margin-bottom: 5vh;
+      }
+      form {
+        .contact_input {
+          font-family: "IBM Plex Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          /* identical to box height, or 150% */
+
+          text-transform: uppercase;
+
+          color: #ffffff;
+
+          opacity: 0.8;
+          background: transparent;
+          border: none;
+          border-bottom: 1px white solid;
+          margin-right: 1vw;
+        }
+        .message_name_holder {
+          font-family: "IBM Plex Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          /* identical to box height, or 150% */
+
+          text-transform: uppercase;
+
+          color: #ffffff;
+
+          opacity: 0.8;
+          margin-top: 2vh;
+        }
+        .attach_file {
+          cursor: pointer;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          gap: 1vw;
+          margin-top: 3vh;
+          font-family: "IBM Plex Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          /* identical to box height, or 150% */
+
+          text-transform: uppercase;
+
+          color: #ffffff;
+
+          opacity: 0.8;
+        }
+        .contact_submit_btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1vw;
+          width: 211px;
+          height: 56px;
+          margin-top: 5vh;
+          background: #141313;
+          font-family: "IBM Plex Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 24px;
+          /* identical to box height, or 133% */
+
+          color: #ffffff;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+      height: fit-content;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
     }
   }
 }

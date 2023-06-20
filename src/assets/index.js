@@ -61,6 +61,8 @@ import ProjectCharityXd from "./projects/charity/Charity_Responsive_Landing_Page
 import DownloadIcon from "./file-arrow-down-solid.svg";
 import DeepPng from "./projects/deep/deep.png";
 import MobileViewUnderConstruction from "./mobile_view_under_construction.png";
+import MenuBar from "./bars-solid.svg";
+import MenuBarCloseIcon from "./x-solid.svg";
 
 export {
   NavBe,
@@ -125,4 +127,6 @@ export {
   DownloadIcon,
   DeepPng,
   MobileViewUnderConstruction,
+  MenuBar,
+  MenuBarCloseIcon,
 };

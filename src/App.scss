@@ -1,27 +1,28 @@
 .app_main {
   .app_center_1 {
-
     display: flex;
     flex-direction: row;
     .router_container {
       margin-left: 14vw;
       width: 100vw - 14vw;
-    }
-    @media screen and (max-width: 900px){
-      display: none;
+      border: 3px blue solid;
+      @media screen and (max-width: 1490px) {
+        margin-left: 0;
+        width: 100vw;
+      }
     }
   }
-  .app_center_2{
+  .app_center_2 {
     display: none;
     flex-direction: column;
-    
+
     justify-content: center;
     align-items: center;
     height: 100vh;
-    .mobile_view_under_construction{
+    .mobile_view_under_construction {
       width: 50vw;
     }
-    .mobile_view_under_construction_text{
+    .mobile_view_under_construction_text {
       margin-top: 5vh;
       margin-top: 40px;
       font-family: "IBM Plex Sans";
@@ -33,19 +34,19 @@
       font-weight: 700;
       text-transform: capitalize;
     }
-    .please_use_wider_screen_size{
+    .please_use_wider_screen_size {
       text-transform: capitalize;
       margin-top: 5vh;
       font-family: "IBM Plex Sans";
-              font-style: italic;
-              font-weight: 700;
-              font-size: 18px;
-              line-height: 24px;
-              /* identical to box height, or 133% */
+      font-style: italic;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      /* identical to box height, or 133% */
 
-              color: #141313;
+      color: #141313;
     }
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 900px) {
       display: flex;
     }
   }

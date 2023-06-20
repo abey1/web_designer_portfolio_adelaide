@@ -79,13 +79,13 @@ const About = () => {
                 </div>
                 <div className="about_center_right_middle_item_bottom">
                   Hello there! My name is{" "}
-                  <span className="about_first_name">Abey</span> <br />{" "}
+                  <span className="about_first_name">Abey</span>
                   <span className="about_last_name">Dellelegn</span> . I am a
-                  web designer & <br /> developer, and I'm very passionate{" "}
-                  <br /> and dedicated to my work.
+                  web designer & developer, and I'm very passionate and
+                  dedicated to my work.
                 </div>
               </div>
-              <div className="about_center_right_middle_item">
+              <div className="about_center_right_middle_item mobile_width_bottom">
                 <div className="about_center_right_middle_item_top">
                   <div className="about_center_right_middle_item_top_number">
                     2
@@ -95,15 +95,15 @@ const About = () => {
                   </div>
                 </div>
                 <div className="about_center_right_middle_item_bottom">
-                  With 13+ years experience as a <br /> professional a graphic
-                  designer, <br /> I have acquired the skills and <br />{" "}
-                  knowledge necessary to make your <br /> project a success.
+                  With 13+ years experience as a professional a graphic
+                  designer, I have acquired the skills and knowledge necessary
+                  to make your project a success.
                 </div>
               </div>
             </div>
             <div className="about_center_right_bottom">
               <div className="about_center_right_bottom_center">
-                <img src={AboutCoute} alt="about coute" />
+                <img className="coute" src={AboutCoute} alt="about coute" />
                 <div className="about_center_right_bottom_center_text">
                   “Passionate web developer with expertise in HTML, CSS,
                   JavaScript, SQL React, and Angular. Dedicated to creating

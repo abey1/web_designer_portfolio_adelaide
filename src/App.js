@@ -20,7 +20,7 @@ function App() {
           </div>
         </Router>
       </div>
-      <div className="app_center_2">
+      {/* <div className="app_center_2">
         <img
           className="mobile_view_under_construction"
           src={MobileViewUnderConstruction}
@@ -32,7 +32,7 @@ function App() {
         <div className="please_use_wider_screen_size">
           please use &gt; 900px screen size
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
