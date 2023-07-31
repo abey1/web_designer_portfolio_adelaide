@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import { Home, About, Services, Works, Contact } from "./pages";
+import { Home, About, Services, Works, Contact, AppAd } from "./pages";
 import { MobileViewUnderConstruction } from "../src/assets";
 import "./App.scss";
 function App() {
@@ -16,6 +16,7 @@ function App() {
               <Route path="/services" element={<Services />} />
               <Route path="/works" element={<Works />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/app-ad.txt" element={<AppAd />} />
             </Routes>
           </div>
         </Router>
