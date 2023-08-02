@@ -16,7 +16,7 @@ function App() {
               <Route path="/services" element={<Services />} />
               <Route path="/works" element={<Works />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/app-ad.txt" element={<AppAd />} />
+              <Route path="/app-ads.txt" element={<AppAd />} />
             </Routes>
           </div>
         </Router>

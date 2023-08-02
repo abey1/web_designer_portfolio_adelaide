@@ -9,7 +9,7 @@ const AppAd = () => {
     const link = document.createElement("a");
     const blob = new Blob([cnappadtxt.addaptxt], { type: "text/plain" });
     const url = URL.createObjectURL(blob);
-    link.download = "app-ad.txt";
+    link.download = "app-ads.txt";
     link.href = url;
     link.click();
   };
